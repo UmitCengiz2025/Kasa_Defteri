@@ -1,0 +1,1756 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#16181C">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/webp" href="data:image/webp;base64,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">
+<link rel="apple-touch-icon" href="icon-192.png">
+<title>Kasa Defteri • Lisanslı Mobil Kasa</title>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.min.js"></script>
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+<style>
+:root[data-theme="light"] {
+  --bg: #F2F3F5;
+  --surface: #FFFFFF;
+  --surface2: #F7F8FA;
+  --border: #D5D8DC;
+  --text: #1E2229;
+  --muted: #68707C;
+  --gold: #A68224;
+  --gold-soft: rgba(166, 130, 36, 0.11);
+  --green: #16794B;
+  --green-soft: rgba(22, 121, 75, 0.11);
+  --red: #B93838;
+  --red-soft: rgba(185, 56, 56, 0.11);
+}
+:root[data-theme="dark"] {
+  --bg: #16181C;
+  --surface: #202329;
+  --surface2: #282C34;
+  --border: #353A45;
+  --text: #E6E8EC;
+  --muted: #9AA1AC;
+  --gold: #C8A23B;
+  --gold-soft: rgba(200, 162, 59, 0.14);
+  --green: #2EA96D;
+  --green-soft: rgba(46, 169, 109, 0.14);
+  --red: #E05A5A;
+  --red-soft: rgba(224, 90, 90, 0.14);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+html, body {
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 13px;
+  line-height: 1.45;
+  overflow: hidden;
+}
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+  max-width: 520px;
+  margin: 0 auto;
+  background: var(--bg);
+  border-left: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+}
+.topbar {
+  flex-shrink: 0;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.brand { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.brand-img {
+  width: 34px; height: 34px; border-radius: 7px;
+  object-fit: cover; border: 1px solid var(--border); background: #fff; flex-shrink: 0;
+}
+.brand-title { font-size: 14px; font-weight: 700; white-space: nowrap; }
+.status-line { font-size: 11px; display: flex; align-items: center; gap: 5px; }
+.top-actions { display: flex; align-items: center; gap: 6px; flex-shrink: 0; }
+.screen {
+  flex: 1;
+  overflow-y: auto;
+  padding: 12px 14px 20px;
+  display: none;
+}
+.screen.active { display: block; }
+.bottom-nav {
+  flex-shrink: 0;
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+.nav-btn {
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  padding: 9px 4px;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  cursor: pointer;
+  border-top: 2px solid transparent;
+}
+.nav-btn svg { width: 18px; height: 18px; stroke-width: 1.9; }
+.nav-btn.active {
+  color: var(--gold);
+  border-top-color: var(--gold);
+  background: var(--gold-soft);
+}
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 13px;
+  margin-bottom: 10px;
+}
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; margin-bottom: 10px; }
+.grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 7px; }
+.stat-lbl { font-size: 11px; color: var(--muted); font-weight: 600; }
+.stat-big { font-size: 21px; font-weight: 700; margin-top: 3px; letter-spacing: -0.3px; }
+.stat-mid { font-size: 15px; font-weight: 700; margin-top: 2px; }
+.sub-split {
+  display: flex; justify-content: space-between; font-size: 11px;
+  color: var(--muted); padding-top: 7px; margin-top: 7px; border-top: 1px solid var(--border);
+}
+label { display: block; font-size: 11px; color: var(--muted); margin-bottom: 4px; font-weight: 600; }
+input, select, textarea {
+  width: 100%; padding: 8px 10px; border-radius: 6px;
+  border: 1px solid var(--border); background: var(--surface2);
+  color: var(--text); font-family: inherit; font-size: 12px;
+}
+input:focus, select:focus, textarea:focus { outline: none; border-color: var(--gold); }
+.btn {
+  padding: 8px 12px; border-radius: 6px; border: 1px solid var(--border);
+  background: var(--surface2); color: var(--text); font-family: inherit;
+  font-size: 12px; font-weight: 600; cursor: pointer;
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+}
+.btn:active { transform: translateY(1px); }
+.btn-gold { background: var(--gold); color: #16181C; border-color: var(--gold); }
+.btn-green { background: var(--green); color: #fff; border-color: var(--green); }
+.btn-red { background: var(--red); color: #fff; border-color: var(--red); }
+.btn-block { width: 100%; padding: 10px 14px; font-size: 13px; }
+.btn-sm { padding: 5px 9px; font-size: 11px; }
+.btn:disabled, .btn.disabled { opacity: 0.48; pointer-events: none; }
+.pill { padding: 2px 7px; border-radius: 4px; font-size: 10px; font-weight: 600; display: inline-block; }
+.pill-inc { background: var(--green-soft); color: var(--green); }
+.pill-exp { background: var(--red-soft); color: var(--red); }
+.pill-gold { background: var(--gold-soft); color: var(--gold); }
+.banner {
+  padding: 9px 11px; border-radius: 7px; margin-bottom: 10px;
+  display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 11.5px;
+}
+.banner-warn { background: var(--gold-soft); border: 1px solid var(--gold); color: var(--gold); }
+.banner-lock { background: var(--red-soft); border: 1px solid var(--red); color: var(--red); }
+.tx-item {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+  padding: 10px 12px; margin-bottom: 7px; display: flex; flex-direction: column; gap: 5px;
+}
+.tx-top, .tx-bot { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.tx-desc { font-weight: 600; font-size: 12.5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tx-amt { font-weight: 700; font-size: 13px; white-space: nowrap; }
+.tx-meta { font-size: 11px; color: var(--muted); }
+.vault-hero {
+  display: flex; flex-direction: column; align-items: center; text-align: center; padding: 14px 10px;
+}
+.dial-wrap {
+  width: 112px; height: 112px; border-radius: 50%; padding: 5px;
+  border: 2px solid var(--border); background: var(--surface2);
+  display: flex; align-items: center; justify-content: center; margin-bottom: 10px;
+  transition: border-color 0.4s ease;
+}
+.dial-wrap.unlocked { border-color: var(--gold); }
+.dial-wrap.locked { border-color: var(--red); }
+.dial-img {
+  width: 98px; height: 98px; border-radius: 50%; object-fit: contain;
+  transition: transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.seg-tabs {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 5px;
+  background: var(--surface2); padding: 4px; border-radius: 7px; border: 1px solid var(--border); margin-bottom: 10px;
+}
+.seg-btn {
+  border: none; background: transparent; color: var(--muted); padding: 7px;
+  border-radius: 5px; font-family: inherit; font-size: 11.5px; font-weight: 600; cursor: pointer;
+}
+.seg-btn.active { background: var(--surface); color: var(--gold); border: 1px solid var(--gold); }
+.modal-backdrop {
+  position: fixed; inset: 0; background: rgba(0, 0, 0, 0.68);
+  display: flex; align-items: flex-end; justify-content: center; z-index: 60;
+}
+.sheet {
+  background: var(--surface); border-top: 1px solid var(--border);
+  border-radius: 12px 12px 0 0; width: 100%; max-width: 520px;
+  padding: 16px 15px 22px; max-height: 90dvh; overflow-y: auto;
+}
+.qr-frame {
+  background: #FFFFFF; padding: 10px; border-radius: 8px;
+  border: 1px solid var(--border); display: inline-block; text-align: center;
+}
+.hidden { display: none !important; }
+.mono { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+video { width: 100%; max-width: 280px; border-radius: 8px; border: 1px solid var(--border); }
+</style>
+</head>
+<body>
+
+<div class="app-shell">
+  <!-- ÜST BAR -->
+  <header class="topbar">
+    <div class="brand">
+      <img src="data:image/webp;base64,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" alt="Kasa" class="brand-img">
+      <div style="min-width:0">
+        <div class="brand-title">Kasa Defteri</div>
+        <div class="status-line">
+          <span id="hdrLicBadge" class="pill pill-exp">Kilitli</span>
+          <span id="hdrSyncInfo" style="color:var(--muted);font-size:10.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Yerel Kasa</span>
+        </div>
+      </div>
+    </div>
+    <div class="top-actions">
+      <button class="btn btn-sm" onclick="openRateSheet()" id="hdrRateBtn" title="Döviz Kurları">$34,80</button>
+      <button class="btn btn-sm" onclick="toggleTheme()" id="themeBtn" title="Tema Değiştir">☀️</button>
+    </div>
+  </header>
+
+  <!-- EKRAN 1: KASA ÖZETİ (SADE TAM EKRAN) -->
+  <main id="secHome" class="screen active">
+    <div id="warnBanner" class="banner banner-warn hidden">
+      <span id="warnBannerTxt">Lisans sürenizin bitmesine az kaldı.</span>
+      <button class="btn btn-sm btn-gold" onclick="switchScreen('vault')">Süre Uzat</button>
+    </div>
+
+    <div id="lockBanner" class="banner banner-lock hidden">
+      <span id="lockBannerTxt">Salt Okunur Mod: Kayıtları inceleyebilir ve Drive yedeğinizi açabilirsiniz.</span>
+      <button class="btn btn-sm" onclick="switchScreen('vault')">Aktif Et</button>
+    </div>
+
+    <div class="card">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <span class="stat-lbl">Net Toplam Varlık (TL Karşılığı)</span>
+        <span class="pill pill-gold" id="homeTxCountPill">0 İşlem</span>
+      </div>
+      <div class="stat-big" id="homeNetTL">₺0,00</div>
+      <div class="sub-split">
+        <span>Banka: <strong style="color:var(--text)" id="homeBankTL">₺0,00</strong></span>
+        <span>Cüzdan: <strong style="color:var(--text)" id="homeWalletTL">₺0,00</strong></span>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="card" style="margin-bottom:0">
+        <span class="stat-lbl">USD Kasa</span>
+        <div class="stat-mid" style="color:var(--green)" id="homeUSD">$0,00</div>
+        <div class="sub-split"><span>TL Karşılığı</span><strong id="homeUSDtl">₺0,00</strong></div>
+      </div>
+      <div class="card" style="margin-bottom:0">
+        <span class="stat-lbl">EUR Kasa</span>
+        <div class="stat-mid" style="color:var(--gold)" id="homeEUR">€0,00</div>
+        <div class="sub-split"><span>TL Karşılığı</span><strong id="homeEURtl">₺0,00</strong></div>
+      </div>
+    </div>
+
+    <div style="margin-bottom:12px">
+      <button id="btnNewTxHome" class="btn btn-gold btn-block" onclick="openTxSheet()">
+        + Yeni Gelir / Gider Kaydı
+      </button>
+    </div>
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:7px">
+      <span class="stat-lbl">Son Hesap Hareketleri</span>
+      <button class="btn btn-sm" onclick="switchScreen('tx')">Tümünü Gör →</button>
+    </div>
+    <div id="homeRecentList"></div>
+  </main>
+
+  <!-- EKRAN 2: HESAP HAREKETLERİ -->
+  <main id="secTx" class="screen">
+    <div style="display:flex;gap:7px;margin-bottom:9px">
+      <input type="text" id="txSearch" placeholder="Açıklamada ara..." oninput="renderAll()">
+      <button class="btn" onclick="toggleFilterDrawer()" id="btnFilterToggle">Filtre</button>
+      <button class="btn btn-gold" id="btnNewTxTop" onclick="openTxSheet()">+ Ekle</button>
+    </div>
+
+    <div id="filterDrawer" class="card hidden">
+      <div style="display:flex;gap:5px;flex-wrap:wrap;margin-bottom:8px">
+        <button class="btn btn-sm" onclick="setTxQuickDate('all')">Tümü</button>
+        <button class="btn btn-sm" onclick="setTxQuickDate('today')">Bugün</button>
+        <button class="btn btn-sm" onclick="setTxQuickDate('month')">Bu Ay</button>
+        <button class="btn btn-sm" onclick="setTxQuickDate('3m')">Son 3 Ay</button>
+      </div>
+      <div class="grid-2" style="margin-bottom:8px">
+        <div><label>Başlangıç</label><input type="date" id="txStart" onchange="renderAll()"></div>
+        <div><label>Bitiş</label><input type="date" id="txEnd" onchange="renderAll()"></div>
+      </div>
+      <div class="grid-3" style="margin-bottom:8px">
+        <select id="txType" onchange="renderAll()">
+          <option value="ALL">Tüm Türler</option>
+          <option value="INCOME">Gelir (+)</option>
+          <option value="EXPENSE">Gider (-)</option>
+        </select>
+        <select id="txCur" onchange="renderAll()">
+          <option value="ALL">Tüm Paralar</option>
+          <option value="TL">TL (₺)</option>
+          <option value="USD">USD ($)</option>
+          <option value="EUR">EUR (€)</option>
+        </select>
+        <select id="txLoc" onchange="renderAll()">
+          <option value="ALL">Tüm Konumlar</option>
+          <option value="BANK">Banka</option>
+          <option value="WALLET">Cüzdan</option>
+        </select>
+      </div>
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <span class="stat-lbl">Sıralama Ölçütü:</span>
+        <div style="display:flex;gap:6px">
+          <button class="btn btn-sm" onclick="toggleSort('date')">Tarih ↕</button>
+          <button class="btn btn-sm" onclick="toggleSort('amount')">Tutar (TL) ↕</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="padding:8px 11px;display:flex;justify-content:space-between;align-items:center;font-size:11px">
+      <span id="txCountInfo" style="color:var(--muted)">0 kayıt</span>
+      <span>Gelir: <b style="color:var(--green)" id="txPeriodInc">₺0,00</b> • Gider: <b style="color:var(--red)" id="txPeriodExp">₺0,00</b></span>
+    </div>
+
+    <div id="txFullList"></div>
+  </main>
+
+  <!-- EKRAN 3: ANALİZ & RAPOR -->
+  <main id="secStat" class="screen">
+    <div class="card">
+      <div style="display:flex;gap:5px;flex-wrap:wrap;margin-bottom:9px">
+        <button class="btn btn-sm" onclick="setStatPreset('month')">Bu Ay</button>
+        <button class="btn btn-sm" onclick="setStatPreset('3m')">Son 3 Ay</button>
+        <button class="btn btn-sm" onclick="setStatPreset('year')">Bu Yıl</button>
+        <button class="btn btn-sm" onclick="setStatPreset('all')">Tümü</button>
+      </div>
+      <div class="grid-2" style="margin-bottom:0">
+        <div><label>Başlangıç</label><input type="date" id="stStart" onchange="renderStats()"></div>
+        <div><label>Bitiş</label><input type="date" id="stEnd" onchange="renderStats()"></div>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="card" style="margin-bottom:0">
+        <span class="stat-lbl" style="color:var(--green)">Dönem Gelir Dağılımı</span>
+        <div id="stIncBreak" style="margin-top:6px;font-size:12px;line-height:1.75"></div>
+      </div>
+      <div class="card" style="margin-bottom:0">
+        <span class="stat-lbl" style="color:var(--red)">Dönem Gider Dağılımı</span>
+        <div id="stExpBreak" style="margin-top:6px;font-size:12px;line-height:1.75"></div>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="card" style="margin-bottom:0">
+        <span class="stat-lbl">Dönem Banka Net (TL)</span>
+        <div class="stat-mid" id="stBankNet">₺0,00</div>
+      </div>
+      <div class="card" style="margin-bottom:0">
+        <span class="stat-lbl">Dönem Cüzdan Net (TL)</span>
+        <div class="stat-mid" id="stWalletNet">₺0,00</div>
+      </div>
+    </div>
+
+    <div class="card" style="text-align:center">
+      <span class="stat-lbl" style="display:block;margin-bottom:8px">Gelir / Gider Oranı ve Net Bakiye (TL)</span>
+      <canvas id="statChartCanvas" width="320" height="185" style="max-width:100%;height:auto"></canvas>
+    </div>
+  </main>
+
+  <!-- EKRAN 4: KİLİT, LİSANS & GOOGLE DRIVE YEDEKLEME -->
+  <main id="secVault" class="screen">
+    <div class="card vault-hero">
+      <div id="vaultDialWrap" class="dial-wrap locked">
+        <img src="data:image/webp;base64,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" id="vaultDialImg" alt="Mekanik Kasa Kadranı" class="dial-img">
+      </div>
+      <div style="font-weight:700;font-size:14px" id="vaultStatusTitle">Lisans Doğrulanmadı (Salt Okunur)</div>
+      <div style="font-size:11.5px;color:var(--muted);margin-top:3px" id="vaultStatusSub">
+        Bu cihaza özel HES kimliği ile aktivasyon yapıldığında yazma kilidi açılır.
+      </div>
+    </div>
+
+    <!-- CİHAZ HES & GMAIL KİMLİK KARTI -->
+    <div class="card">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+        <strong style="color:var(--gold);font-size:12px">1. Cihaz HES Kimliği & Hesap Kilidi</strong>
+        <button class="btn btn-sm" onclick="copyHesCode()">HES Kopyala</button>
+      </div>
+      <div style="background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:8px 10px;margin-bottom:9px;display:flex;justify-content:space-between;align-items:center">
+        <span style="font-size:11px;color:var(--muted)">Cihaz HES Kodu:</span>
+        <strong class="mono" style="font-size:13px;color:var(--gold)" id="vaultHesText">Üretiliyor...</strong>
+      </div>
+      <div class="grid-2" style="margin-bottom:8px">
+        <div>
+          <label>Kilitli Gmail Hesabınız *</label>
+          <input type="email" id="userGmailInput" placeholder="ornek@gmail.com" onchange="saveUserProfile()">
+        </div>
+        <div>
+          <label>WhatsApp Numaranız *</label>
+          <input type="tel" id="userPhoneInput" placeholder="905XXXXXXXXX" onchange="saveUserProfile()">
+        </div>
+      </div>
+      <div>
+        <label>Ad Soyad / Firma Ünvanı</label>
+        <input type="text" id="userNameInput" placeholder="Ad Soyad" onchange="saveUserProfile()">
+      </div>
+      <div id="gmailLockedHint" class="hidden" style="font-size:10.5px;color:var(--green);margin-top:6px">
+        ✓ Gmail adresi aktif lisans sertifikası ile bu cihaza mühürlenmiştir.
+      </div>
+    </div>
+
+    <!-- HİBRİT AKTİVASYON MERKEZİ -->
+    <div class="card">
+      <strong style="color:var(--gold);font-size:12px;display:block;margin-bottom:8px">2. Lisans Aktivasyon & Süre Uzatma</strong>
+      <div class="seg-tabs">
+        <button class="seg-btn active" id="segBtnCloud" onclick="switchLicMode('cloud')">Tek Tık Onay & Talep QR</button>
+        <button class="seg-btn" id="segBtnScan" onclick="switchLicMode('scan')">Aktivasyon QR Okut</button>
+      </div>
+
+      <!-- MOD A: TEK TIK TALEP & WHATSAPP QR -->
+      <div id="licPaneCloud">
+        <div class="grid-2" style="margin-bottom:8px">
+          <div>
+            <label>Lisans Paketi</label>
+            <select id="reqDaysSelect">
+              <option value="30">1 Aylık (30 Gün)</option>
+              <option value="90">3 Aylık (90 Gün)</option>
+              <option value="180">6 Aylık (180 Gün)</option>
+              <option value="365">1 Yıllık (365 Gün)</option>
+            </select>
+          </div>
+          <div>
+            <label>Ödeme / Dekont Notu</label>
+            <input type="text" id="reqReceiptInput" placeholder="Örn: Havale 14:20">
+          </div>
+        </div>
+
+        <div style="display:flex;gap:7px;flex-wrap:wrap;margin-bottom:8px">
+          <button class="btn btn-gold" style="flex:1" onclick="submitHybridRequest()">Ödeme Bildir & Talep QR Üret</button>
+          <button class="btn" onclick="checkCloudApproval(true)" title="Admin onayladıysa karekod okutmadan açar">Onayı Sorgula</button>
+        </div>
+        <div id="cloudStatusMsg" style="font-size:11px;color:var(--muted);margin-bottom:6px"></div>
+
+        <div id="reqQrWrap" class="hidden" style="text-align:center;padding-top:8px;border-top:1px solid var(--border)">
+          <div class="qr-frame" style="margin-bottom:8px">
+            <canvas id="reqQrCanvas" width="280" height="335" style="max-width:100%;height:auto"></canvas>
+          </div>
+          <div style="display:flex;gap:6px;justify-content:center;flex-wrap:wrap">
+            <button class="btn btn-sm btn-green" onclick="shareRequestViaWhatsApp()">WhatsApp ile Dekont & QR Gönder</button>
+            <button class="btn btn-sm" onclick="downloadCanvas('reqQrCanvas', 'Lisans_Talep_QR.png')">QR İndir</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- MOD B: AKTİVASYON KAREKODU OKUTMA -->
+      <div id="licPaneScan" class="hidden">
+        <p style="font-size:11px;color:var(--muted);margin-bottom:9px">
+          Admin tarafından gönderilen tek kullanımlık <b>Dijital Kasa Sertifikası (QR)</b> resmini galeriden seçin veya kamerayla okutun. Başka cihazda geçersizdir.
+        </p>
+        <div style="display:flex;gap:7px;flex-wrap:wrap;margin-bottom:9px">
+          <label class="btn btn-gold" style="flex:1;margin:0;cursor:pointer">
+            Galeriden QR Seç (WhatsApp)
+            <input type="file" accept="image/*" class="hidden" onchange="scanActQrFromFile(event)">
+          </label>
+          <button class="btn" onclick="toggleActCamera()">Kamera Aç</button>
+        </div>
+
+        <div id="actCamWrap" class="hidden" style="text-align:center;margin-bottom:9px">
+          <video id="actCamVideo" playsinline></video>
+          <div style="margin-top:5px"><button class="btn btn-sm btn-red" onclick="stopActCamera()">Kamerayı Kapat</button></div>
+        </div>
+
+        <div>
+          <label>Veya Aktivasyon Kodunu Yapıştırın (KACT2|...)</label>
+          <div style="display:flex;gap:6px">
+            <input type="text" id="manualActInput" placeholder="KACT2|..." class="mono">
+            <button class="btn btn-gold" onclick="applyManualToken()">Aktif Et</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- AKTİF DİJİTAL SERTİFİKA ROZETİ -->
+    <div id="myCertCard" class="card hidden" style="text-align:center">
+      <strong style="color:var(--gold);font-size:12px;display:block;margin-bottom:6px">Aktif Dijital Kasa Sertifikanız</strong>
+      <div class="qr-frame" style="margin-bottom:6px">
+        <canvas id="myCertCanvas" width="260" height="315" style="max-width:210px;height:auto"></canvas>
+      </div>
+      <div style="font-size:10.5px;color:var(--muted)">Bu sertifika kriptografik olarak yalnızca bu cihaza ve Gmail hesabınıza aittir.</div>
+    </div>
+
+    <!-- GOOGLE DRIVE ŞİFRELİ YEDEKLEME (SÜRE BİTSE DE SALT OKUNUR AÇILIR) -->
+    <div class="card">
+      <strong style="color:var(--gold);font-size:12px;display:block;margin-bottom:4px">3. Kişisel Google Drive Şifreli Yedekleme</strong>
+      <p style="font-size:11px;color:var(--muted);margin-bottom:10px">
+        Yedekleriniz <b>HES + Gmail</b> anahtarınızla AES-256 şifrelenir. Lisans süreniz dolsa bile kendi Google Drive hesabınızla açıp <b>Salt Okunur</b> inceleyebilirsiniz; başka cihaz veya Gmail hesabında kesinlikle açılmaz.
+      </p>
+
+      <div style="display:flex;gap:7px;flex-wrap:wrap;margin-bottom:8px">
+        <button class="btn btn-gold" style="flex:1" onclick="googleDriveSync('backup')">☁️ Google Drive'a Yedekle</button>
+        <button class="btn" style="flex:1" onclick="googleDriveSync('restore')">☁️ Drive'dan Geri Yükle</button>
+      </div>
+
+      <div style="display:flex;gap:7px;flex-wrap:wrap">
+        <button class="btn btn-sm" style="flex:1" onclick="exportEncryptedKasaFile()">Şifreli (.kasa) Dosya İndir / Paylaş</button>
+        <label class="btn btn-sm" style="flex:1;margin:0;cursor:pointer">
+          Şifreli (.kasa) Yedek Aç
+          <input type="file" accept=".kasa,.json" class="hidden" onchange="importEncryptedKasaFile(event)">
+        </label>
+      </div>
+      <div id="driveStatusText" style="font-size:11px;color:var(--muted);margin-top:7px"></div>
+    </div>
+
+    <!-- BULUT SUNUCU VE OAUTH AYARLARI -->
+    <div class="card">
+      <div style="display:flex;justify-content:space-between;align-items:center;cursor:pointer" onclick="document.getElementById('connCfgBody').classList.toggle('hidden')">
+        <strong style="font-size:11.5px;color:var(--muted)">⚙️ Bulut Bağlantı & OAuth Ayarları</strong>
+        <span style="font-size:11px;color:var(--muted)">Aç / Kapat ▾</span>
+      </div>
+      <div id="connCfgBody" class="hidden" style="margin-top:10px;display:flex;flex-direction:column;gap:8px">
+        <div>
+          <label>Admin Apps Script Web Uygulaması URL</label>
+          <input type="url" id="cfgApiUrl" placeholder="https://script.google.com/macros/s/.../exec" onchange="saveConnCfg()">
+        </div>
+        <div>
+          <label>Admin WhatsApp Numarası (905...)</label>
+          <input type="tel" id="cfgAdminWa" placeholder="905XXXXXXXXX" onchange="saveConnCfg()">
+        </div>
+        <div>
+          <label>Google Drive OAuth Client ID (İsteğe Bağlı - Doğrudan Bulut API İçin)</label>
+          <input type="text" id="cfgGoogleClientId" placeholder="xxxx.apps.googleusercontent.com" onchange="saveConnCfg()">
+        </div>
+        <div>
+          <label>Sunucu RSA Açık Anahtarı (SPKI Base64URL)</label>
+          <input type="text" id="cfgPubKey" class="mono" style="font-size:10px" onchange="saveConnCfg()">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- SABİT ALT MENÜ (4 SADE EKRAN) -->
+  <nav class="bottom-nav">
+    <button class="nav-btn active" id="navHome" onclick="switchScreen('home')">
+      <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 10.5L12 3l9 7.5V20a1 1 0 01-1 1h-5.5v-6h-5v6H4a1 1 0 01-1-1v-9.5z"/></svg>
+      <span>Kasa Özeti</span>
+    </button>
+    <button class="nav-btn" id="navTx" onclick="switchScreen('tx')">
+      <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5h11M9 12h11M9 19h11M4 5h.01M4 12h.01M4 19h.01"/></svg>
+      <span>Hareketler</span>
+    </button>
+    <button class="nav-btn" id="navStat" onclick="switchScreen('stat')">
+      <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"/><path stroke-linecap="round" stroke-linejoin="round" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"/></svg>
+      <span>Analiz</span>
+    </button>
+    <button class="nav-btn" id="navVault" onclick="switchScreen('vault')">
+      <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><rect x="4" y="11" width="16" height="10" rx="2"/><path stroke-linecap="round" stroke-linejoin="round" d="M8 11V7a4 4 0 018 0v4"/></svg>
+      <span>Kilit & Drive</span>
+    </button>
+  </nav>
+</div>
+
+<!-- ALT ÇEKMECE 1: YENİ İŞLEM EKLEME -->
+<div id="txSheetBackdrop" class="modal-backdrop hidden" onclick="if(event.target===this)closeTxSheet()">
+  <div class="sheet">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:11px">
+      <strong style="font-size:14px">Yeni Kasa İşlemi</strong>
+      <button class="btn btn-sm" onclick="closeTxSheet()">✕</button>
+    </div>
+    <form id="txForm" onsubmit="saveTransaction(event)">
+      <div class="seg-tabs" style="margin-bottom:10px">
+        <button type="button" class="seg-btn active" id="fBtnInc" onclick="setFormType('INCOME')">Gelir (+)</button>
+        <button type="button" class="seg-btn" id="fBtnExp" onclick="setFormType('EXPENSE')">Gider (-)</button>
+      </div>
+      <div class="grid-2" style="margin-bottom:9px">
+        <div>
+          <label>Para Birimi</label>
+          <select id="fCur" onchange="updateFormRateVis()">
+            <option value="TL">Türk Lirası (₺)</option>
+            <option value="USD">ABD Doları ($)</option>
+            <option value="EUR">Euro (€)</option>
+          </select>
+        </div>
+        <div>
+          <label>Kasa Konumu</label>
+          <select id="fLoc">
+            <option value="BANK">Banka</option>
+            <option value="WALLET">Cüzdan (Nakit)</option>
+          </select>
+        </div>
+      </div>
+      <div class="grid-2" style="margin-bottom:9px">
+        <div>
+          <label>Tutar</label>
+          <input type="number" id="fAmt" step="0.01" min="0.01" placeholder="0.00" required>
+        </div>
+        <div>
+          <label>Tarih</label>
+          <input type="date" id="fDate" required>
+        </div>
+      </div>
+      <div id="fRateBox" class="hidden" style="margin-bottom:9px">
+        <label id="fRateLbl">İşlem Kuru (TL)</label>
+        <input type="number" id="fRate" step="0.0001">
+      </div>
+      <div style="margin-bottom:12px">
+        <label>Açıklama</label>
+        <input type="text" id="fDesc" placeholder="Örn: Müşteri tahsilatı, kira..." required>
+      </div>
+      <div style="display:flex;gap:8px">
+        <button type="button" class="btn" style="flex:1" onclick="closeTxSheet()">İptal</button>
+        <button type="submit" class="btn btn-gold" style="flex:2">Kaydet</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- ALT ÇEKMECE 2: DÖVİZ KURU AYARLARI -->
+<div id="rateSheetBackdrop" class="modal-backdrop hidden" onclick="if(event.target===this)closeRateSheet()">
+  <div class="sheet">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:11px">
+      <strong style="font-size:14px">Güncel Döviz Kurları</strong>
+      <button class="btn btn-sm" onclick="closeRateSheet()">✕</button>
+    </div>
+    <p style="font-size:11px;color:var(--muted);margin-bottom:10px">
+      Gelir döviz bakiyeleri güncel kurla hesaplanır; gider döviz işlemleri ise kaydedildiği andaki kurla sabitlenir.
+    </p>
+    <div class="grid-2" style="margin-bottom:12px">
+      <div><label>USD / TL Kuru</label><input type="number" id="sheetRateUSD" step="0.01"></div>
+      <div><label>EUR / TL Kuru</label><input type="number" id="sheetRateEUR" step="0.01"></div>
+    </div>
+    <div style="display:flex;gap:8px">
+      <button class="btn" style="flex:1" onclick="fetchLiveRates()">🌐 Merkez Kur Çek</button>
+      <button class="btn btn-gold" style="flex:1" onclick="saveSheetRates()">Uygula</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ============================================================================
+// 1. VARSAYILAN KRİPTOGRAFİK AÇIK ANAHTAR & GÖRSEL SABİTLERİ
+// ============================================================================
+const DEFAULT_PUBKEY_B64U = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxt6Go4bRIg4c2daQGYff9_yh-yiWgZxng2FldWYcNOg0dnkXOeVFQyEpr-LrQEIATrcTuTybiIliMz13jua3pm5lKDDpaiuxge-Kq1nbZDvNLBGJOE5sIxRzIu_QPkvM_ObCgXoxsqyEw-6uVbUq_mRR-wXEjEhGl89dz3zHhJEaM0GWELsyj3N4g3XSWjpW_0eA1eq0jcstWcnZC5CZXLszmwkWY872PcG0u3UtuZYSkffWsOV7vQg_Rsk4W3O26wV0GkIrOfkDH961bdxuJ7hsaQxB1HnDh5fU_uKHNadN3V_BS77rT2UrduJHaRAifm-bfPj0wA29pZ8_ztz7XQIDAQAB";
+const SAFE_EMBLEM_URI = "data:image/webp;base64,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";
+
+const localYMD = (d = new Date()) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+
+const toB64Url = (bytes) => {
+  const u8 = new Uint8Array(bytes);
+  let bin = "";
+  for (let i = 0; i < u8.length; i++) bin += String.fromCharCode(u8[i]);
+  return btoa(bin).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+};
+
+const objToB64Url = (obj) => toB64Url(new TextEncoder().encode(JSON.stringify(obj)));
+
+const fromB64UrlBytes = (b64u) => {
+  const clean = b64u.trim().replace(/-/g, "+").replace(/_/g, "/");
+  const pad = "=".repeat((4 - (clean.length % 4)) % 4);
+  const bin = atob(clean + pad);
+  const arr = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) arr[i] = bin.charCodeAt(i);
+  return arr;
+};
+
+// ============================================================================
+// 2. UYGULAMA DURUMU & DONANIM KİLİTLİ INDEXEDDB CİHAZ HES KİMLİĞİ
+// ============================================================================
+let vaultIdentity = null;
+let isReadOnly = true;
+let activePayload = null;
+let transactions = JSON.parse(localStorage.getItem("kasa_v2_tx") || localStorage.getItem("kasa_transactions") || "[]");
+let rates = JSON.parse(localStorage.getItem("kasa_v2_rates") || localStorage.getItem("kasa_rates") || '{"USD":34.80,"EUR":37.60}');
+let connCfg = JSON.parse(localStorage.getItem("kasa_v2_conn") || "{}");
+let userProfile = JSON.parse(localStorage.getItem("kasa_v2_profile") || '{"gmail":"","phone":"","name":""}');
+
+let formType = "INCOME";
+let sortField = "date";
+let sortAsc = false;
+let pendingDelId = null;
+let camStream = null;
+let dialAngle = 0;
+let lastReqQrToken = "";
+
+const fmtMoney = (n, cur = "TL") => {
+  const sym = cur === "TL" ? "₺" : (cur === "USD" ? "$" : "€");
+  return sym + Number(n || 0).toLocaleString("tr-TR", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+};
+
+async function initVaultIdentity() {
+  const db = await new Promise((resolve, reject) => {
+    const req = indexedDB.open("KasaHardwareVaultV2", 1);
+    req.onupgradeneeded = () => req.result.createObjectStore("secure");
+    req.onsuccess = () => resolve(req.result);
+    req.onerror = () => reject(req.error);
+  });
+  const getVal = (k) => new Promise(res => {
+    const tx = db.transaction("secure", "readonly");
+    const r = tx.objectStore("secure").get(k);
+    r.onsuccess = () => res(r.result);
+    r.onerror = () => res(null);
+  });
+  const setVal = (k, v) => new Promise(res => {
+    const tx = db.transaction("secure", "readwrite");
+    tx.objectStore("secure").put(v, k);
+    tx.oncomplete = () => res();
+  });
+
+  let hwKey = await getVal("deviceKeyPair");
+  if (!hwKey) {
+    hwKey = await crypto.subtle.generateKey(
+      { name: "ECDSA", namedCurve: "P-256" },
+      false, // extractable: false -> başka cihaza kopyalanamaz
+      ["sign", "verify"]
+    );
+    await setVal("deviceKeyPair", hwKey);
+  }
+  const spki = await crypto.subtle.exportKey("spki", hwKey.publicKey);
+  const hashBuf = await crypto.subtle.digest("SHA-256", spki);
+  const hex = Array.from(new Uint8Array(hashBuf)).slice(0, 5).map(b => b.toString(16).padStart(2, "0")).join("").toUpperCase();
+  const hes = `KS-${hex.slice(0, 4)}-${hex.slice(4, 8)}-${hex.slice(8, 10)}`;
+
+  const sealedGmail = await getVal("sealedGmail");
+  if (sealedGmail) userProfile.gmail = sealedGmail;
+
+  return { db, getVal, setVal, hes };
+}
+
+function spinVaultDial(degDelta = 360) {
+  dialAngle += degDelta;
+  const img = document.getElementById("vaultDialImg");
+  if (img) img.style.transform = `rotate(${dialAngle}deg)`;
+}
+
+// ============================================================================
+// 3. RSA-2048 ASİMETRİK KACT2 SERTİFİKA DOĞRULAMA & SAAT KORUMASI
+// ============================================================================
+async function verifyAndApplyKACT2(actToken, isNewScan = false) {
+  if (!actToken || !actToken.trim().startsWith("KACT2|")) {
+    throw new Error("Geçersiz sertifika formatı! KACT2 kodu bekleniyor.");
+  }
+  const raw = actToken.trim().slice(6);
+  const dotIdx = raw.indexOf(".");
+  if (dotIdx < 0) throw new Error("Sertifika imzası eksik veya bozuk.");
+
+  const payloadB64u = raw.slice(0, dotIdx);
+  const sigB64u = raw.slice(dotIdx + 1);
+  const pubKeyStr = (connCfg.pubKey || DEFAULT_PUBKEY_B64U).trim();
+
+  const pubKey = await crypto.subtle.importKey(
+    "spki",
+    fromB64UrlBytes(pubKeyStr),
+    { name: "RSASSA-PKCS1-v1_5", hash: "SHA-256" },
+    false,
+    ["verify"]
+  );
+
+  const valid = await crypto.subtle.verify(
+    "RSASSA-PKCS1-v1_5",
+    pubKey,
+    fromB64UrlBytes(sigB64u),
+    new TextEncoder().encode(payloadB64u)
+  );
+  if (!valid) throw new Error("Kriptografik imza doğrulanamadı! Sahte veya başka sunucuya ait karekod.");
+
+  const payload = JSON.parse(new TextDecoder().decode(fromB64UrlBytes(payloadB64u)));
+
+  // 1. Cihaz HES Kilidi Kontrolü
+  if (String(payload.hes).toUpperCase() !== vaultIdentity.hes) {
+    throw new Error(`Bu karekod başka bir cihaza (${payload.hes}) aittir! Bu cihazda açılamaz.`);
+  }
+
+  // 2. Gmail Hesap Kilidi Kontrolü
+  const sealedGmail = await vaultIdentity.getVal("sealedGmail");
+  const currentGmail = (sealedGmail || userProfile.gmail || "").trim().toLowerCase();
+  if (currentGmail && payload.gmail.toLowerCase() !== currentGmail) {
+    throw new Error(`Bu lisans farklı bir Gmail hesabına (${payload.gmail}) tanımlanmış!`);
+  }
+
+  // 3. Tek Kullanımlık Sıra Sayacı (seq) Kontrolü
+  const lastSeq = (await vaultIdentity.getVal("lastAppliedSeq")) || 0;
+  if (isNewScan && Number(payload.seq) <= Number(lastSeq)) {
+    throw new Error("Bu aktivasyon karekodu daha önce kullanılmış (Tek Kullanımlık)!");
+  }
+
+  // 4. Cihaz Saati Geri Alma Koruması
+  const nowSec = Math.floor(Date.now() / 1000);
+  const maxSeen = (await vaultIdentity.getVal("maxSeenTs")) || 0;
+  if (nowSec + 600 < maxSeen) {
+    isReadOnly = true;
+    throw new Error("Cihaz tarihi geri alınmış! Güvenlik kilidi nedeniyle Salt Okunur moda geçildi.");
+  }
+  await vaultIdentity.setVal("maxSeenTs", Math.max(maxSeen, nowSec, Number(payload.iat || 0)));
+
+  // Gmail'i cihaza mühürle ve sertifikayı kaydet
+  userProfile.gmail = payload.gmail.toLowerCase();
+  saveUserProfile();
+  await vaultIdentity.setVal("sealedGmail", userProfile.gmail);
+  await vaultIdentity.setVal("activeToken", actToken.trim());
+
+  if (isNewScan) {
+    await vaultIdentity.setVal("lastAppliedSeq", Number(payload.seq));
+    spinVaultDial(540);
+    // Sunucuya tek kullanımlık tüketim bilgisini ilet
+    if (connCfg.apiUrl && navigator.onLine) {
+      fetch(connCfg.apiUrl, {
+        method: "POST",
+        headers: { "Content-Type": "text/plain;charset=utf-8" },
+        body: JSON.stringify({ action: "consume", lic_id: payload.id, hes: vaultIdentity.hes })
+      }).catch(() => {});
+    }
+  }
+
+  activePayload = payload;
+  isReadOnly = nowSec >= Number(payload.exp);
+  updateLicenseUI();
+  return { payload, isReadOnly };
+}
+
+function updateLicenseUI() {
+  const hdrBadge = document.getElementById("hdrLicBadge");
+  const warnBanner = document.getElementById("warnBanner");
+  const lockBanner = document.getElementById("lockBanner");
+  const dialWrap = document.getElementById("vaultDialWrap");
+  const titleEl = document.getElementById("vaultStatusTitle");
+  const subEl = document.getElementById("vaultStatusSub");
+  const btnHome = document.getElementById("btnNewTxHome");
+  const btnTop = document.getElementById("btnNewTxTop");
+  const gmailInput = document.getElementById("userGmailInput");
+  const certCard = document.getElementById("myCertCard");
+
+  const nowSec = Math.floor(Date.now() / 1000);
+
+  if (!activePayload) {
+    isReadOnly = true;
+    hdrBadge.className = "pill pill-exp";
+    hdrBadge.innerText = "Lisanssız • Salt Okunur";
+    warnBanner.classList.add("hidden");
+    lockBanner.classList.remove("hidden");
+    document.getElementById("lockBannerTxt").innerText = "Salt Okunur Mod: Yeni kayıt için Kilit & Drive sekmesinden lisansınızı aktif edin.";
+    dialWrap.className = "dial-wrap locked";
+    titleEl.innerText = "Kasa Yazma Kilidi Kapalı";
+    subEl.innerText = "Ödeme bildirimi veya Aktivasyon Karekodu ile kasanızı açabilirsiniz.";
+    btnHome.disabled = true;
+    btnTop.disabled = true;
+    certCard.classList.add("hidden");
+    return;
+  }
+
+  gmailInput.value = activePayload.gmail;
+  gmailInput.readOnly = true;
+  document.getElementById("gmailLockedHint").classList.remove("hidden");
+
+  const remDays = Math.ceil((Number(activePayload.exp) - nowSec) / 86400);
+  const expDateStr = localYMD(new Date(Number(activePayload.exp) * 1000));
+
+  // Prestij Sertifikasını Çiz
+  certCard.classList.remove("hidden");
+  vaultIdentity.getVal("activeToken").then(tok => {
+    if (tok) drawStyledQR("myCertCanvas", tok, `SERTİFİKA • ${vaultIdentity.hes}`, `${activePayload.gmail} • ${expDateStr}`);
+  });
+
+  if (remDays <= 0) {
+    isReadOnly = true;
+    hdrBadge.className = "pill pill-exp";
+    hdrBadge.innerText = "Süre Doldu • Salt Okunur";
+    warnBanner.classList.add("hidden");
+    lockBanner.classList.remove("hidden");
+    document.getElementById("lockBannerTxt").innerText = `Lisans süreniz (${expDateStr}) doldu. Kendi Google Drive yedeğinizi Salt Okunur açabilirsiniz.`;
+    dialWrap.className = "dial-wrap locked";
+    titleEl.innerText = "Lisans Süresi Doldu (Salt Okunur Mod)";
+    subEl.innerText = `Bitiş: ${expDateStr} • Geçmiş kayıtlarınız ve Drive yedeğiniz güvende.`;
+    btnHome.disabled = true;
+    btnTop.disabled = true;
+  } else {
+    isReadOnly = false;
+    hdrBadge.className = remDays <= 7 ? "pill pill-gold" : "pill pill-inc";
+    hdrBadge.innerText = `Aktif • ${remDays} Gün`;
+    lockBanner.classList.add("hidden");
+    if (remDays <= 7) {
+      warnBanner.classList.remove("hidden");
+      document.getElementById("warnBannerTxt").innerText = `Lisansınızın bitmesine ${remDays} gün kaldı (${expDateStr}).`;
+    } else {
+      warnBanner.classList.add("hidden");
+    }
+    dialWrap.className = "dial-wrap unlocked";
+    titleEl.innerText = `Lisans Aktif (${remDays} Gün Kaldı)`;
+    subEl.innerText = `${activePayload.gmail} • Bitiş Tarihi: ${expDateStr}`;
+    btnHome.disabled = false;
+    btnTop.disabled = false;
+  }
+}
+
+// ============================================================================
+// 4. HİBRİT BULUT ONAY TALEBİ & KAREKOD ÜRETİMİ / OKUMA
+// ============================================================================
+function drawStyledQR(canvasId, text, title, subtitle) {
+  const canvas = document.getElementById(canvasId);
+  if (!canvas || typeof qrcode === "undefined") return;
+  const qr = qrcode(0, "M");
+  qr.addData(text);
+  qr.make();
+  const count = qr.getModuleCount();
+  const ctx = canvas.getContext("2d");
+  ctx.fillStyle = "#FFFFFF";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+  const size = canvas.width - 44;
+  const cell = size / count;
+  const ox = 22;
+  const oy = 18;
+
+  ctx.fillStyle = "#16181C";
+  for (let r = 0; r < count; r++) {
+    for (let c = 0; c < count; c++) {
+      if (qr.isDark(r, c)) {
+        ctx.fillRect(Math.floor(ox + c * cell), Math.floor(oy + r * cell), Math.ceil(cell), Math.ceil(cell));
+      }
+    }
+  }
+  const lineY = oy + size + 12;
+  ctx.fillStyle = "#C8A23B";
+  ctx.fillRect(24, lineY, canvas.width - 48, 2);
+  ctx.fillStyle = "#16181C";
+  ctx.font = "bold 12px Open Sans, sans-serif";
+  ctx.textAlign = "center";
+  ctx.fillText(title, canvas.width / 2, lineY + 20);
+  ctx.fillStyle = "#555555";
+  ctx.font = "11px Open Sans, sans-serif";
+  ctx.fillText(subtitle, canvas.width / 2, lineY + 38);
+}
+
+async function submitHybridRequest() {
+  saveUserProfile();
+  const gmail = userProfile.gmail.trim().toLowerCase();
+  const phone = userProfile.phone.replace(/\D/g, "");
+  const name = userProfile.name.trim() || "Kullanıcı";
+  const days = parseInt(document.getElementById("reqDaysSelect").value, 10);
+  const ref = document.getElementById("reqReceiptInput").value.trim();
+
+  if (!gmail || !gmail.includes("@")) {
+    alert("Lütfen geçerli Gmail adresinizi girin (Lisans ve Google Drive yedeği bu hesaba kilitlenecektir).");
+    return;
+  }
+  if (!phone || phone.length < 10) {
+    alert("Lütfen WhatsApp numaranızı (905...) girin.");
+    return;
+  }
+
+  const reqObj = {
+    v: 2,
+    hes: vaultIdentity.hes,
+    gmail,
+    phone,
+    name,
+    days,
+    ref,
+    ts: Math.floor(Date.now() / 1000)
+  };
+  lastReqQrToken = "KREQ2|" + objToB64Url(reqObj);
+
+  document.getElementById("reqQrWrap").classList.remove("hidden");
+  drawStyledQR("reqQrCanvas", lastReqQrToken, `TALEP • ${vaultIdentity.hes}`, `${gmail} • ${days} Gün`);
+
+  const msgEl = document.getElementById("cloudStatusMsg");
+  if (connCfg.apiUrl && navigator.onLine) {
+    msgEl.innerText = "Bulut onay merkezine iletiliyor...";
+    try {
+      const res = await fetch(connCfg.apiUrl, {
+        method: "POST",
+        headers: { "Content-Type": "text/plain;charset=utf-8" },
+        body: JSON.stringify({
+          action: "request",
+          hes: vaultIdentity.hes,
+          gmail,
+          name,
+          phone,
+          days,
+          receipt_ref: ref
+        })
+      });
+      const d = await res.json();
+      if (d.ok) {
+        msgEl.style.color = "var(--green)";
+        msgEl.innerText = `✓ Talebiniz Admin ekranına düştü (No: ${d.req_id}). Admin onayladığında karekod okutmadan otomatik açılacaktır!`;
+      } else {
+        msgEl.style.color = "var(--gold)";
+        msgEl.innerText = "Talep karekodu hazır. Aşağıdaki yeşil butonla dekontunuzla birlikte WhatsApp'tan iletin.";
+      }
+    } catch (e) {
+      msgEl.style.color = "var(--gold)";
+      msgEl.innerText = "Çevrimdışı mod: Talep karekodunuz oluşturuldu, WhatsApp üzerinden Admin'e gönderebilirsiniz.";
+    }
+  } else {
+    msgEl.style.color = "var(--gold)";
+    msgEl.innerText = "Talep karekodunuz hazır! Ödeme dekontunuzla birlikte Admin WhatsApp hattına gönderin.";
+  }
+}
+
+async function checkCloudApproval(manualClick = false) {
+  const gmail = (userProfile.gmail || "").trim().toLowerCase();
+  if (!connCfg.apiUrl || !gmail || !navigator.onLine) {
+    if (manualClick) alert("Bulut sorgusu için Gmail adresiniz girilmiş ve Admin Bulut URL ayarı tanımlanmış olmalıdır.");
+    return;
+  }
+  const msgEl = document.getElementById("cloudStatusMsg");
+  if (manualClick) msgEl.innerText = "Onay durumu kontrol ediliyor...";
+  try {
+    const url = `${connCfg.apiUrl}?action=status&hes=${encodeURIComponent(vaultIdentity.hes)}&gmail=${encodeURIComponent(gmail)}`;
+    const res = await fetch(url);
+    const d = await res.json();
+    if (d.server_ts) {
+      const prev = (await vaultIdentity.getVal("maxSeenTs")) || 0;
+      await vaultIdentity.setVal("maxSeenTs", Math.max(prev, Number(d.server_ts)));
+    }
+    if (d.act_token) {
+      const lastSeq = (await vaultIdentity.getVal("lastAppliedSeq")) || 0;
+      const isFresh = Number(d.seq) > Number(lastSeq);
+      await verifyAndApplyKACT2(d.act_token, isFresh);
+      renderAll();
+      if (isFresh || manualClick) {
+        msgEl.style.color = "var(--green)";
+        msgEl.innerText = "✓ Lisansınız Bulut üzerinden doğrulandı ve kasanız açıldı!";
+      }
+    } else if (manualClick) {
+      msgEl.style.color = "var(--muted)";
+      msgEl.innerText = "Henüz onaylanmış aktif lisans bulunamadı. Ödeme sonrası Admin onayı bekleniyor.";
+    }
+  } catch (err) {
+    if (manualClick) alert("Sunucu yanıtı alınamadı: " + err.message);
+  }
+}
+
+async function shareRequestViaWhatsApp() {
+  const c = document.getElementById("reqQrCanvas");
+  const days = document.getElementById("reqDaysSelect").value;
+  const adminWa = (connCfg.adminWa || "").replace(/\D/g, "");
+  const text = `Merhaba, Kasa Defteri ${days} Günlük Lisans Talebim:
+Cihaz HES: ${vaultIdentity.hes}
+Gmail: ${userProfile.gmail}
+WhatsApp: ${userProfile.phone}
+
+Talep Kodu:
+${lastReqQrToken}`;
+
+  try {
+    const blob = await new Promise(r => c.toBlob(r, "image/png"));
+    const file = new File([blob], `Talep_${vaultIdentity.hes}.png`, { type: "image/png" });
+    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+      await navigator.share({ files: [file], title: "Kasa Lisans Talebi", text });
+      return;
+    }
+  } catch (e) {}
+
+  downloadCanvas("reqQrCanvas", `Talep_${vaultIdentity.hes}.png`);
+  const waLink = adminWa ? `https://wa.me/${adminWa}?text=${encodeURIComponent(text)}` : `https://wa.me/?text=${encodeURIComponent(text)}`;
+  window.open(waLink, "_blank");
+}
+
+function downloadCanvas(canvasId, fileName) {
+  const c = document.getElementById(canvasId);
+  const a = document.createElement("a");
+  a.href = c.toDataURL("image/png");
+  a.download = fileName;
+  a.click();
+}
+
+function scanActQrFromFile(ev) {
+  const f = ev.target.files[0];
+  if (!f) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    const img = new Image();
+    img.onload = async () => {
+      const c = document.createElement("canvas");
+      const scale = Math.min(1, 900 / Math.max(img.width, img.height));
+      c.width = Math.floor(img.width * scale);
+      c.height = Math.floor(img.height * scale);
+      const ctx = c.getContext("2d");
+      ctx.drawImage(img, 0, 0, c.width, c.height);
+      const code = jsQR(ctx.getImageData(0, 0, c.width, c.height).data, c.width, c.height);
+      if (!code || !code.data) {
+        alert("Görselde karekod okunamadı. Lütfen net karekod resmini seçin.");
+        return;
+      }
+      try {
+        await verifyAndApplyKACT2(code.data, true);
+        renderAll();
+        alert("Kasa kilidi açıldı! Lisansınız başarıyla etkinleştirildi.");
+      } catch (err) {
+        alert(err.message);
+      }
+    };
+    img.src = e.target.result;
+  };
+  reader.readAsDataURL(f);
+  ev.target.value = "";
+}
+
+async function toggleActCamera() {
+  if (camStream) { stopActCamera(); return; }
+  try {
+    camStream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: "environment" } });
+    const v = document.getElementById("actCamVideo");
+    v.srcObject = camStream;
+    v.play();
+    document.getElementById("actCamWrap").classList.remove("hidden");
+    requestAnimationFrame(scanActFrame);
+  } catch (e) {
+    alert("Kamera izni alınamadı. Galeriden QR Seç butonunu kullanabilirsiniz.");
+  }
+}
+
+function stopActCamera() {
+  if (camStream) camStream.getTracks().forEach(t => t.stop());
+  camStream = null;
+  document.getElementById("actCamWrap").classList.add("hidden");
+}
+
+function scanActFrame() {
+  if (!camStream) return;
+  const v = document.getElementById("actCamVideo");
+  if (v.readyState === v.HAVE_ENOUGH_DATA) {
+    const c = document.createElement("canvas");
+    c.width = v.videoWidth; c.height = v.videoHeight;
+    const ctx = c.getContext("2d");
+    ctx.drawImage(v, 0, 0, c.width, c.height);
+    const code = jsQR(ctx.getImageData(0, 0, c.width, c.height).data, c.width, c.height);
+    if (code && code.data) {
+      stopActCamera();
+      verifyAndApplyKACT2(code.data, true)
+        .then(() => { renderAll(); alert("Karekod doğrulandı, lisansınız aktif edildi!"); })
+        .catch(err => alert(err.message));
+      return;
+    }
+  }
+  requestAnimationFrame(scanActFrame);
+}
+
+async function applyManualToken() {
+  const val = document.getElementById("manualActInput").value.trim();
+  try {
+    await verifyAndApplyKACT2(val, true);
+    document.getElementById("manualActInput").value = "";
+    renderAll();
+    alert("Lisans başarıyla etkinleştirildi!");
+  } catch (err) {
+    alert(err.message);
+  }
+}
+
+// ============================================================================
+// 5. KİŞİSEL GOOGLE DRIVE & AES-GCM 256-BİT CİHAZ+GMAIL ŞİFRELİ YEDEKLEME
+// ============================================================================
+async function deriveVaultAesKey(hes, gmail) {
+  const cleanMail = (gmail || "").trim().toLowerCase();
+  if (!cleanMail) throw new Error("Şifreli yedekleme için önce Gmail hesabınızı girin.");
+  const secretMaterial = new TextEncoder().encode(`KASA_DRIVE_LOCK_V2|${hes}|${cleanMail}`);
+  const baseKey = await crypto.subtle.importKey("raw", secretMaterial, "PBKDF2", false, ["deriveKey"]);
+  return crypto.subtle.deriveKey(
+    { name: "PBKDF2", salt: secretMaterial, iterations: 100000, hash: "SHA-256" },
+    baseKey,
+    { name: "AES-GCM", length: 256 },
+    false,
+    ["encrypt", "decrypt"]
+  );
+}
+
+async function buildEncryptedVaultBlob() {
+  const aesKey = await deriveVaultAesKey(vaultIdentity.hes, userProfile.gmail);
+  const iv = crypto.getRandomValues(new Uint8Array(12));
+  const plainObj = {
+    app: "KasaVaultV2",
+    ts: Date.now(),
+    rates,
+    transactions
+  };
+  const encoded = new TextEncoder().encode(JSON.stringify(plainObj));
+  const cipher = await crypto.subtle.encrypt({ name: "AES-GCM", iv }, aesKey, encoded);
+  return JSON.stringify({
+    v: 2,
+    iv: toB64Url(iv),
+    data: toB64Url(cipher)
+  });
+}
+
+async function restoreEncryptedVaultBlob(rawJsonStr) {
+  const parsed = JSON.parse(rawJsonStr);
+  if (!parsed || parsed.v !== 2 || !parsed.iv || !parsed.data) {
+    throw new Error("Geçersiz yedek dosyası formatı.");
+  }
+  try {
+    const aesKey = await deriveVaultAesKey(vaultIdentity.hes, userProfile.gmail);
+    const plainBuf = await crypto.subtle.decrypt(
+      { name: "AES-GCM", iv: fromB64UrlBytes(parsed.iv) },
+      aesKey,
+      fromB64UrlBytes(parsed.data)
+    );
+    const data = JSON.parse(new TextDecoder().decode(plainBuf));
+    if (Array.isArray(data.transactions)) {
+      transactions = data.transactions;
+      localStorage.setItem("kasa_v2_tx", JSON.stringify(transactions));
+    }
+    if (data.rates) {
+      rates = data.rates;
+      localStorage.setItem("kasa_v2_rates", JSON.stringify(rates));
+    }
+    spinVaultDial(180);
+    renderAll();
+    return data.transactions.length;
+  } catch (e) {
+    throw new Error("Şifre çözülemedi! Bu yedek yalnızca oluşturulduğu cihaz HES kodu ve kendi Gmail hesabınızla açılabilir.");
+  }
+}
+
+async function exportEncryptedKasaFile() {
+  try {
+    const encStr = await buildEncryptedVaultBlob();
+    const fileName = `Kasa_Yedek_${localYMD(new Date())}.kasa`;
+    const file = new File([encStr], fileName, { type: "application/octet-stream" });
+    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+      await navigator.share({ files: [file], title: "Kasa Drive Şifreli Yedek" });
+      return;
+    }
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([encStr], { type: "application/octet-stream" }));
+    a.download = fileName;
+    a.click();
+    document.getElementById("driveStatusText").innerText = "✓ Şifreli (.kasa) yedek oluşturuldu. Google Drive klasörünüze kaydedebilirsiniz.";
+  } catch (err) {
+    alert(err.message);
+  }
+}
+
+function importEncryptedKasaFile(ev) {
+  const f = ev.target.files[0];
+  if (!f) return;
+  const reader = new FileReader();
+  reader.onload = async e => {
+    try {
+      const count = await restoreEncryptedVaultBlob(e.target.result);
+      const modeNote = isReadOnly ? " (Lisans süresi dolduğu için Salt Okunur Modda açıldı)" : "";
+      document.getElementById("driveStatusText").innerText = `✓ ${count} kayıt başarıyla yüklendi${modeNote}.`;
+      alert(`${count} işlem kaydı doğrulandı ve açıldı${modeNote}.`);
+    } catch (err) {
+      alert(err.message);
+    }
+  };
+  reader.readAsText(f);
+  ev.target.value = "";
+}
+
+async function googleDriveSync(mode) {
+  const statusEl = document.getElementById("driveStatusText");
+  const clientId = (connCfg.googleClientId || "").trim();
+  if (!clientId) {
+    // OAuth Client ID tanımlı değilse doğrudan Android Drive paylaşım / dosya seçici akışını çalıştır
+    if (mode === "backup") {
+      await exportEncryptedKasaFile();
+    } else {
+      statusEl.innerText = "Google OAuth Client ID girilmediği için şifreli (.kasa) Drive dosyanızı seçerek açabilirsiniz.";
+      document.querySelector('input[accept=".kasa,.json"]').click();
+    }
+    return;
+  }
+
+  if (typeof google === "undefined" || !google.accounts || !google.accounts.oauth2) {
+    alert("Google kimlik servisi yüklenemedi. İnternet bağlantınızı kontrol edin.");
+    return;
+  }
+
+  const tokenClient = google.accounts.oauth2.initTokenClient({
+    client_id: clientId,
+    scope: "https://www.googleapis.com/auth/drive.appdata https://www.googleapis.com/auth/userinfo.email",
+    callback: async (resp) => {
+      if (resp.error) { alert("Google giriş hatası: " + resp.error); return; }
+      try {
+        const accessToken = resp.access_token;
+        const uRes = await fetch("https://www.googleapis.com/oauth2/v3/userinfo", {
+          headers: { Authorization: `Bearer ${accessToken}` }
+        });
+        const uInfo = await uRes.json();
+        const signedEmail = (uInfo.email || "").toLowerCase();
+
+        if (userProfile.gmail && signedEmail !== userProfile.gmail.toLowerCase()) {
+          throw new Error(`Oturum açılan Google hesabı (${signedEmail}), kasanın kilitli Gmail hesabı (${userProfile.gmail}) ile eşleşmiyor!`);
+        }
+        if (!userProfile.gmail) {
+          userProfile.gmail = signedEmail;
+          saveUserProfile();
+        }
+
+        const listRes = await fetch("https://www.googleapis.com/drive/v3/files?spaces=appDataFolder&q=name='kasa_vault_v2.enc'&fields=files(id,name,modifiedTime)", {
+          headers: { Authorization: `Bearer ${accessToken}` }
+        });
+        const listData = await listRes.json();
+        const existingFile = (listData.files && listData.files[0]) ? listData.files[0] : null;
+
+        if (mode === "backup") {
+          const encContent = await buildEncryptedVaultBlob();
+          const metadata = existingFile ? { name: "kasa_vault_v2.enc" } : { name: "kasa_vault_v2.enc", parents: ["appDataFolder"] };
+          const form = new FormData();
+          form.append("metadata", new Blob([JSON.stringify(metadata)], { type: "application/json" }));
+          form.append("file", new Blob([encContent], { type: "application/json" }));
+
+          const upUrl = existingFile
+            ? `https://www.googleapis.com/upload/drive/v3/files/${existingFile.id}?uploadType=multipart`
+            : "https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart";
+          const upMethod = existingFile ? "PATCH" : "POST";
+
+          const upRes = await fetch(upUrl, {
+            method: upMethod,
+            headers: { Authorization: `Bearer ${accessToken}` },
+            body: form
+          });
+          if (!upRes.ok) throw new Error("Drive yükleme hatası.");
+          statusEl.style.color = "var(--green)";
+          statusEl.innerText = `✓ Kişisel Google Drive (${signedEmail}) gizli kasasına şifreli yedeklendi.`;
+          document.getElementById("hdrSyncInfo").innerText = "☁️ Drive Güncel";
+        } else {
+          if (!existingFile) throw new Error("Bu Google Drive hesabında kayıtlı yedek bulunamadı.");
+          const dlRes = await fetch(`https://www.googleapis.com/drive/v3/files/${existingFile.id}?alt=media`, {
+            headers: { Authorization: `Bearer ${accessToken}` }
+          });
+          const encText = await dlRes.text();
+          const count = await restoreEncryptedVaultBlob(encText);
+          statusEl.style.color = "var(--green)";
+          statusEl.innerText = `✓ Google Drive'dan ${count} işlem geri yüklendi${isReadOnly ? " (Salt Okunur Mod)" : ""}.`;
+          document.getElementById("hdrSyncInfo").innerText = "☁️ Drive Yüklendi";
+        }
+      } catch (err) {
+        alert(err.message);
+      }
+    }
+  });
+  tokenClient.requestAccessToken({ prompt: "" });
+}
+
+// ============================================================================
+// 6. KASA DEFTERİ HESAPLAMALARI, EKRAN GEÇİŞLERİ & GRAFİK
+// ============================================================================
+const txTlValue = (t) => t.currency === "TL" ? Number(t.amount) : Number(t.amount) * (t.type === "EXPENSE" ? Number(t.rate || rates[t.currency]) : Number(rates[t.currency]));
+
+function switchScreen(name) {
+  ["home", "tx", "stat", "vault"].forEach(s => {
+    const cap = s.charAt(0).toUpperCase() + s.slice(1);
+    document.getElementById("sec" + cap).classList.toggle("active", s === name);
+    document.getElementById("nav" + cap).classList.toggle("active", s === name);
+  });
+  if (name === "stat") renderStats();
+}
+
+function switchLicMode(m) {
+  document.getElementById("licPaneCloud").classList.toggle("hidden", m !== "cloud");
+  document.getElementById("licPaneScan").classList.toggle("hidden", m !== "scan");
+  document.getElementById("segBtnCloud").classList.toggle("active", m === "cloud");
+  document.getElementById("segBtnScan").classList.toggle("active", m === "scan");
+  if (m !== "scan") stopActCamera();
+}
+
+function openTxSheet() {
+  if (isReadOnly) {
+    alert("Salt Okunur Mod: Yeni kayıt eklemek için Kilit & Drive sekmesinden lisansınızı aktif edin.");
+    switchScreen("vault");
+    return;
+  }
+  document.getElementById("txSheetBackdrop").classList.remove("hidden");
+  document.getElementById("fDate").value = localYMD(new Date());
+  updateFormRateVis();
+}
+
+function closeTxSheet() {
+  document.getElementById("txSheetBackdrop").classList.add("hidden");
+  document.getElementById("txForm").reset();
+}
+
+function setFormType(t) {
+  formType = t;
+  document.getElementById("fBtnInc").classList.toggle("active", t === "INCOME");
+  document.getElementById("fBtnExp").classList.toggle("active", t === "EXPENSE");
+  updateFormRateVis();
+}
+
+function updateFormRateVis() {
+  const cur = document.getElementById("fCur").value;
+  const box = document.getElementById("fRateBox");
+  if (cur === "TL") {
+    box.classList.add("hidden");
+  } else {
+    box.classList.remove("hidden");
+    document.getElementById("fRateLbl").innerText = formType === "EXPENSE"
+      ? `Gider Sabitlenecek Kur (${cur}/TL)`
+      : `Gelir Başlangıç Kuru (${cur}/TL)`;
+    document.getElementById("fRate").value = rates[cur];
+  }
+}
+
+function saveTransaction(e) {
+  e.preventDefault();
+  if (isReadOnly) { alert("Salt Okunur Modda işlem kaydedilemez."); return; }
+  const cur = document.getElementById("fCur").value;
+  const amt = parseFloat(document.getElementById("fAmt").value) || 0;
+  if (amt <= 0) return;
+
+  transactions.push({
+    id: Date.now(),
+    type: formType,
+    currency: cur,
+    location: document.getElementById("fLoc").value,
+    amount: amt,
+    rate: cur === "TL" ? 1 : (parseFloat(document.getElementById("fRate").value) || rates[cur]),
+    date: document.getElementById("fDate").value,
+    description: document.getElementById("fDesc").value.trim()
+  });
+  localStorage.setItem("kasa_v2_tx", JSON.stringify(transactions));
+  closeTxSheet();
+  renderAll();
+}
+
+function deleteTx(id) {
+  if (isReadOnly) return;
+  if (pendingDelId !== id) {
+    pendingDelId = id;
+    renderAll();
+    setTimeout(() => { if (pendingDelId === id) { pendingDelId = null; renderAll(); } }, 3000);
+    return;
+  }
+  transactions = transactions.filter(x => x.id !== id);
+  pendingDelId = null;
+  localStorage.setItem("kasa_v2_tx", JSON.stringify(transactions));
+  renderAll();
+}
+
+function toggleFilterDrawer() {
+  document.getElementById("filterDrawer").classList.toggle("hidden");
+}
+
+function setTxQuickDate(mode) {
+  const now = new Date();
+  let s = "", e = localYMD(now);
+  if (mode === "today") s = e;
+  else if (mode === "month") s = localYMD(new Date(now.getFullYear(), now.getMonth(), 1));
+  else if (mode === "3m") s = localYMD(new Date(now.getFullYear(), now.getMonth() - 2, 1));
+  else e = "";
+  document.getElementById("txStart").value = s;
+  document.getElementById("txEnd").value = e;
+  renderAll();
+}
+
+function toggleSort(field) {
+  if (sortField === field) sortAsc = !sortAsc;
+  else { sortField = field; sortAsc = false; }
+  renderAll();
+}
+
+function renderTxCardHTML(t, runningBal) {
+  const isInc = t.type === "INCOME";
+  const tlVal = txTlValue(t);
+  const rateNote = t.currency !== "TL"
+    ? ` • Kur: ${isInc ? rates[t.currency] : t.rate} (${fmtMoney(tlVal, "TL")})`
+    : "";
+  const delBtn = isReadOnly ? "" : `<button class="btn btn-sm ${pendingDelId === t.id ? "btn-red" : ""}" style="padding:2px 7px;font-size:10px" onclick="deleteTx(${t.id})">${pendingDelId === t.id ? "Onayla?" : "Sil"}</button>`;
+  return `<div class="tx-item">
+    <div class="tx-top">
+      <div class="tx-desc">${escapeHtml(t.description)}</div>
+      <div class="tx-amt" style="color:${isInc ? "var(--green)" : "var(--red)"}">${isInc ? "+" : "-"}${fmtMoney(t.amount, t.currency)}</div>
+    </div>
+    <div class="tx-bot">
+      <div class="tx-meta">${t.date} • ${t.location === "BANK" ? "Banka" : "Cüzdan"}${rateNote}</div>
+      <div style="display:flex;align-items:center;gap:7px">
+        <span class="tx-meta">Kalan: <b>${fmtMoney(runningBal, "TL")}</b></span>
+        ${delBtn}
+      </div>
+    </div>
+  </div>`;
+}
+
+function escapeHtml(s) {
+  return String(s || "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+function renderAll() {
+  document.getElementById("hdrRateBtn").innerText = `$${Number(rates.USD).toFixed(2)}`;
+
+  // Kronolojik bakiye hesabı
+  const cron = [...transactions].sort((a, b) => (a.date === b.date ? a.id - b.id : a.date.localeCompare(b.date)));
+  let runTL = 0, bankTL = 0, walletTL = 0, usdBal = 0, eurBal = 0;
+  const balMap = {};
+
+  cron.forEach(t => {
+    const tl = txTlValue(t);
+    const sign = t.type === "INCOME" ? 1 : -1;
+    runTL += sign * tl;
+    if (t.location === "BANK") bankTL += sign * tl; else walletTL += sign * tl;
+    if (t.currency === "USD") usdBal += sign * Number(t.amount);
+    if (t.currency === "EUR") eurBal += sign * Number(t.amount);
+    balMap[t.id] = runTL;
+  });
+
+  // Özet Ekranı
+  document.getElementById("homeNetTL").innerText = fmtMoney(runTL, "TL");
+  document.getElementById("homeBankTL").innerText = fmtMoney(bankTL, "TL");
+  document.getElementById("homeWalletTL").innerText = fmtMoney(walletTL, "TL");
+  document.getElementById("homeUSD").innerText = fmtMoney(usdBal, "USD");
+  document.getElementById("homeUSDtl").innerText = fmtMoney(usdBal * rates.USD, "TL");
+  document.getElementById("homeEUR").innerText = fmtMoney(eurBal, "EUR");
+  document.getElementById("homeEURtl").innerText = fmtMoney(eurBal * rates.EUR, "TL");
+  document.getElementById("homeTxCountPill").innerText = `${transactions.length} İşlem`;
+
+  const recent = [...cron].reverse().slice(0, 4);
+  document.getElementById("homeRecentList").innerHTML = recent.length
+    ? recent.map(t => renderTxCardHTML(t, balMap[t.id])).join("")
+    : `<div class="card" style="text-align:center;color:var(--muted);padding:20px">Henüz işlem kaydı bulunmuyor.</div>`;
+
+  // Hareketler Filtreleme
+  const q = (document.getElementById("txSearch").value || "").toLowerCase();
+  const fStart = document.getElementById("txStart").value;
+  const fEnd = document.getElementById("txEnd").value;
+  const fType = document.getElementById("txType").value;
+  const fCur = document.getElementById("txCur").value;
+  const fLoc = document.getElementById("txLoc").value;
+
+  let pInc = 0, pExp = 0;
+  const filtered = transactions.filter(t => {
+    if (fType !== "ALL" && t.type !== fType) return false;
+    if (fCur !== "ALL" && t.currency !== fCur) return false;
+    if (fLoc !== "ALL" && t.location !== fLoc) return false;
+    if (fStart && t.date < fStart) return false;
+    if (fEnd && t.date > fEnd) return false;
+    if (q && !t.description.toLowerCase().includes(q)) return false;
+    const tl = txTlValue(t);
+    if (t.type === "INCOME") pInc += tl; else pExp += tl;
+    return true;
+  });
+
+  filtered.sort((a, b) => {
+    const va = sortField === "amount" ? txTlValue(a) : a.date;
+    const vb = sortField === "amount" ? txTlValue(b) : b.date;
+    if (va < vb) return sortAsc ? -1 : 1;
+    if (va > vb) return sortAsc ? 1 : -1;
+    return b.id - a.id;
+  });
+
+  document.getElementById("txCountInfo").innerText = `${filtered.length} kayıt`;
+  document.getElementById("txPeriodInc").innerText = fmtMoney(pInc, "TL");
+  document.getElementById("txPeriodExp").innerText = fmtMoney(pExp, "TL");
+  document.getElementById("txFullList").innerHTML = filtered.length
+    ? filtered.map(t => renderTxCardHTML(t, balMap[t.id])).join("")
+    : `<div class="card" style="text-align:center;color:var(--muted);padding:24px">Filtreye uygun hareket bulunamadı.</div>`;
+}
+
+function setStatPreset(p) {
+  const now = new Date();
+  let s = "", e = localYMD(now);
+  if (p === "month") s = localYMD(new Date(now.getFullYear(), now.getMonth(), 1));
+  else if (p === "3m") s = localYMD(new Date(now.getFullYear(), now.getMonth() - 2, 1));
+  else if (p === "year") s = localYMD(new Date(now.getFullYear(), 0, 1));
+  else e = "";
+  document.getElementById("stStart").value = s;
+  document.getElementById("stEnd").value = e;
+  renderStats();
+}
+
+function renderStats() {
+  const s = document.getElementById("stStart").value;
+  const e = document.getElementById("stEnd").value;
+  let incTL = 0, expTL = 0, bankN = 0, walletN = 0;
+  const incC = { TL: 0, USD: 0, EUR: 0 }, expC = { TL: 0, USD: 0, EUR: 0 };
+
+  transactions.forEach(t => {
+    if (s && t.date < s) return;
+    if (e && t.date > e) return;
+    const tl = txTlValue(t);
+    if (t.type === "INCOME") {
+      incTL += tl; incC[t.currency] += Number(t.amount);
+      if (t.location === "BANK") bankN += tl; else walletN += tl;
+    } else {
+      expTL += tl; expC[t.currency] += Number(t.amount);
+      if (t.location === "BANK") bankN -= tl; else walletN -= tl;
+    }
+  });
+
+  document.getElementById("stIncBreak").innerHTML = `
+    <div>TL: <b>${fmtMoney(incC.TL, "TL")}</b></div>
+    <div>USD: <b>${fmtMoney(incC.USD, "USD")}</b></div>
+    <div>EUR: <b>${fmtMoney(incC.EUR, "EUR")}</b></div>`;
+  document.getElementById("stExpBreak").innerHTML = `
+    <div>TL: <b>${fmtMoney(expC.TL, "TL")}</b></div>
+    <div>USD: <b>${fmtMoney(expC.USD, "USD")}</b></div>
+    <div>EUR: <b>${fmtMoney(expC.EUR, "EUR")}</b></div>`;
+  document.getElementById("stBankNet").innerText = fmtMoney(bankN, "TL");
+  document.getElementById("stWalletNet").innerText = fmtMoney(walletN, "TL");
+
+  // Saf HTML5 Halka Grafik Çizimi (Çevrimdışı & Sıfır Bağımlılık)
+  const canvas = document.getElementById("statChartCanvas");
+  const ctx = canvas.getContext("2d");
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  const total = incTL + expTL;
+  const cx = 95, cy = 92, r = 64;
+
+  if (total <= 0) {
+    ctx.strokeStyle = "#353A45";
+    ctx.lineWidth = 18;
+    ctx.beginPath(); ctx.arc(cx, cy, r, 0, Math.PI * 2); ctx.stroke();
+    ctx.fillStyle = "#9AA1AC";
+    ctx.font = "12px Open Sans, sans-serif";
+    ctx.fillText("Bu dönemde veri yok", 175, 96);
+    return;
+  }
+
+  const incAngle = (incTL / total) * Math.PI * 2;
+  ctx.lineWidth = 20;
+  ctx.strokeStyle = "#2EA96D";
+  ctx.beginPath(); ctx.arc(cx, cy, r, -Math.PI / 2, -Math.PI / 2 + incAngle); ctx.stroke();
+  ctx.strokeStyle = "#E05A5A";
+  ctx.beginPath(); ctx.arc(cx, cy, r, -Math.PI / 2 + incAngle, -Math.PI / 2 + Math.PI * 2); ctx.stroke();
+
+  const isDark = document.documentElement.getAttribute("data-theme") === "dark";
+  ctx.fillStyle = isDark ? "#E6E8EC" : "#1E2229";
+  ctx.font = "bold 12px Open Sans, sans-serif";
+  ctx.fillText("Gelir: " + fmtMoney(incTL, "TL"), 180, 66);
+  ctx.fillText("Gider: " + fmtMoney(expTL, "TL"), 180, 94);
+  ctx.fillStyle = "#C8A23B";
+  ctx.fillText("Net: " + fmtMoney(incTL - expTL, "TL"), 180, 124);
+}
+
+// ============================================================================
+// 7. KUR, TEMA VE PROFİL YARDIMCILARI
+// ============================================================================
+function openRateSheet() {
+  document.getElementById("sheetRateUSD").value = rates.USD;
+  document.getElementById("sheetRateEUR").value = rates.EUR;
+  document.getElementById("rateSheetBackdrop").classList.remove("hidden");
+}
+function closeRateSheet() { document.getElementById("rateSheetBackdrop").classList.add("hidden"); }
+
+function saveSheetRates() {
+  rates.USD = parseFloat(document.getElementById("sheetRateUSD").value) || rates.USD;
+  rates.EUR = parseFloat(document.getElementById("sheetRateEUR").value) || rates.EUR;
+  localStorage.setItem("kasa_v2_rates", JSON.stringify(rates));
+  closeRateSheet();
+  renderAll();
+}
+
+async function fetchLiveRates() {
+  try {
+    const r = await fetch("https://open.er-api.com/v6/latest/TRY");
+    const d = await r.json();
+    if (d && d.rates) {
+      document.getElementById("sheetRateUSD").value = (1 / d.rates.USD).toFixed(2);
+      document.getElementById("sheetRateEUR").value = (1 / d.rates.EUR).toFixed(2);
+    }
+  } catch (e) { alert("Kur servisine ulaşılamadı."); }
+}
+
+function toggleTheme() {
+  const next = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
+  document.documentElement.setAttribute("data-theme", next);
+  localStorage.setItem("kasa_v2_theme", next);
+  document.getElementById("themeBtn").innerText = next === "dark" ? "☀️" : "🌙";
+  renderStats();
+}
+
+function saveUserProfile() {
+  if (!activePayload) {
+    userProfile.gmail = document.getElementById("userGmailInput").value.trim().toLowerCase();
+  }
+  userProfile.phone = document.getElementById("userPhoneInput").value.trim();
+  userProfile.name = document.getElementById("userNameInput").value.trim();
+  localStorage.setItem("kasa_v2_profile", JSON.stringify(userProfile));
+}
+
+function saveConnCfg() {
+  connCfg = {
+    apiUrl: document.getElementById("cfgApiUrl").value.trim(),
+    adminWa: document.getElementById("cfgAdminWa").value.replace(/\D/g, ""),
+    googleClientId: document.getElementById("cfgGoogleClientId").value.trim(),
+    pubKey: document.getElementById("cfgPubKey").value.trim() || DEFAULT_PUBKEY_B64U
+  };
+  localStorage.setItem("kasa_v2_conn", JSON.stringify(connCfg));
+}
+
+function copyHesCode() {
+  if (!vaultIdentity) return;
+  navigator.clipboard.writeText(vaultIdentity.hes);
+  alert("Cihaz HES kodu kopyalandı: " + vaultIdentity.hes);
+}
+
+// ============================================================================
+// 8. BAŞLATMA & URL PARAMETRESİ İLE OTOMATİK MÜŞTERİ KURULUMU
+// ============================================================================
+(async function boot() {
+  // URL üzerinden Admin kurulum parametrelerini (?api=...&wa=...&cid=...) otomatik al
+  const params = new URLSearchParams(location.search);
+  let cfgChanged = false;
+  if (params.get("api")) { connCfg.apiUrl = params.get("api"); cfgChanged = true; }
+  if (params.get("wa")) { connCfg.adminWa = params.get("wa"); cfgChanged = true; }
+  if (params.get("cid")) { connCfg.googleClientId = params.get("cid"); cfgChanged = true; }
+  if (params.get("pub")) { connCfg.pubKey = params.get("pub"); cfgChanged = true; }
+  if (cfgChanged) {
+    localStorage.setItem("kasa_v2_conn", JSON.stringify(connCfg));
+    history.replaceState({}, "", location.pathname);
+  }
+
+  const savedTheme = localStorage.getItem("kasa_v2_theme") || "dark";
+  document.documentElement.setAttribute("data-theme", savedTheme);
+  document.getElementById("themeBtn").innerText = savedTheme === "dark" ? "☀️" : "🌙";
+
+  document.getElementById("cfgApiUrl").value = connCfg.apiUrl || "";
+  document.getElementById("cfgAdminWa").value = connCfg.adminWa || "";
+  document.getElementById("cfgGoogleClientId").value = connCfg.googleClientId || "";
+  document.getElementById("cfgPubKey").value = connCfg.pubKey || DEFAULT_PUBKEY_B64U;
+
+  vaultIdentity = await initVaultIdentity();
+  document.getElementById("vaultHesText").innerText = vaultIdentity.hes;
+
+  document.getElementById("userGmailInput").value = userProfile.gmail || "";
+  document.getElementById("userPhoneInput").value = userProfile.phone || "";
+  document.getElementById("userNameInput").value = userProfile.name || "";
+
+  // Kayıtlı KACT2 sertifikası varsa doğrula
+  const savedToken = await vaultIdentity.getVal("activeToken");
+  if (savedToken) {
+    try { await verifyAndApplyKACT2(savedToken, false); } catch (e) { console.warn(e.message); updateLicenseUI(); }
+  } else {
+    updateLicenseUI();
+  }
+
+  setStatPreset("month");
+  renderAll();
+
+  // İnternet varsa arka planda Admin'in tek tık onayını otomatik kontrol et
+  if (navigator.onLine && connCfg.apiUrl && userProfile.gmail) {
+    checkCloudApproval(false);
+  }
+
+  if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
+    navigator.serviceWorker.register("sw.js").catch(() => {});
+  }
+})();
+</script>
+</body>
+</html>

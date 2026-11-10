@@ -1,0 +1,24 @@
+{
+  "name": "Profesyonel Kasa Defteri",
+  "short_name": "Kasa Defteri",
+  "description": "Cihaz HES ve Google Drive Kilitli Mobil Kasa Defteri",
+  "start_url": "./kasa.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#16181C",
+  "theme_color": "#16181C",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
