@@ -1,6 +1,6 @@
 const CACHE_NAME = "kasa-pwa-v2";
 const ASSETS = [
-  "./kasa.html",
+  "./index.html",
   "./manifest.json",
   "./icon-192.png",
   "./icon-512.png",
